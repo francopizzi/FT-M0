@@ -135,6 +135,8 @@ function sumarLikesDeUsuario(usuario) {
     //aca solo se puede acceder a i
   }
 
+  //nuevos cambios
+
   //aca no voy a poder acceder a i
   return suma;
 
