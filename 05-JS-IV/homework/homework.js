@@ -54,10 +54,17 @@ function tieneEmail(usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contratio, devuelve "false"
   // Tu código:
+  /*
   if (usuario.email === null || usuario.email === undefined) {
     return false
   }
   return true;
+*/
+  if (usuario.email) {
+    return true
+  }
+  return false;
+
   
 }
 
@@ -134,7 +141,7 @@ function sumarLikesDeUsuario(usuario) {
     suma = suma + usuario.posts[i].likes;
     //aca solo se puede acceder a i
   }
-
+  
   //nuevos cambios
 
   //aca no voy a poder acceder a i
